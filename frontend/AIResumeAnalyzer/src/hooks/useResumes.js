@@ -55,7 +55,7 @@ export function useUploadResume() {
   const qc = useQueryClient();
   const toast = useToast();
   return useMutation({
-    mutationFn: ({ file, title }) => resumesApi.upload(file, title),
+    mutationFn: ({ file, title }) => resumesApi.upload({ file, title }),
     onSuccess: (data) => {
       qc.invalidateQueries({ queryKey: resumeKeys.list() });
       qc.invalidateQueries({ queryKey: dashboardKey });
