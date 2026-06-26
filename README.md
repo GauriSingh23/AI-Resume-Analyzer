@@ -70,8 +70,8 @@ A full-stack MERN application powered by Google Gemini AI that helps job seekers
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/ai-resume-analyzer.git
-cd ai-resume-analyzer
+git clone https://github.com/GauriSingh23/AI-Resume-Analyzer.git
+cd AI-Resume-Analyzer
 ```
 
 ### 2. Setup Backend
