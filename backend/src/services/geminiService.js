@@ -127,6 +127,7 @@ function buildPrompt({ rawText, targetRole }) {
     "Score the resume from 0-100 based on ATS readiness (keyword match, parseable formatting, quantified impact, clarity).",
     "Return exactly 5 prioritized issues, 5 standout strengths, and 5-10 weak bullets rewritten to be stronger, quantified, and ATS-friendly.",
     "Rewrites must preserve the original meaning. Each rewrite needs a one-line rationale.",
+    "IMPORTANT: Never use placeholder values like 'X%', 'Y%', 'N%', or '[number]' in rewrites. Only include metrics and numbers if they are explicitly present in the original resume text.",
     "Identify keywords clearly present and notable keywords missing for the apparent target role.",
     "Be specific and evidence-based — cite phrasing from the resume in explanations.",
     "",
