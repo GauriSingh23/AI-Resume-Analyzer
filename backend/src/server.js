@@ -22,7 +22,7 @@ app.set("trust proxy", 1);
 app.use(
   cors({
     origin: [
-      "https://ai-resume-analyzer-teal-one.vercel.app"
+       "https://ai-resume-analyzer-platform.vercel.app"
     ], // reflect request origin — allows everything while keeping credentials working
     credentials: true,
   })
