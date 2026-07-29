@@ -155,3 +155,6 @@ ai-resume-analyzer/
 | `GEMINI_MODEL` | Gemini model to use (e.g. `gemini-1.5-flash`) |
 | `NODE_ENV` | `development` or `production` |
 
+## 🚀 Live Demo
+
+🔗 https://ai-resume-analyzer-platform.vercel.app
