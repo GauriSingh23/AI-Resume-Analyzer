@@ -152,10 +152,10 @@ export function FeaturesSection() {
                   <f.icon size={17} strokeWidth={2.25} />
                 </div>
                 <div>
-                  <h3 className="font-display text-[17px] font-semibold tracking-tight text-[var(--ink)]">
+                  <h3 className="font-display text-[17px] font-semibold tracking-tight text-[#0F1115]">
                     {f.title}
                   </h3>
-                  <p className="text-[13px] text-[var(--ink-muted)] mt-1 leading-relaxed">
+                  <p className="text-[13px] text-[#6B7280] mt-1 leading-relaxed">
                     {f.desc}
                   </p>
                 </div>
