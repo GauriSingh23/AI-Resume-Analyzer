@@ -170,7 +170,7 @@ export function HeroDashboardPreview() {
           </span>
         </div>
         <div className="text-[11px] text-white leading-snug">
-          Shipped 4 React analytics dashboards used by 12k+ users, cutting load time 38%.
+          Shipped 4 React analytics dashboards, cutting load time 38%.
         </div>
       </motion.div>
 

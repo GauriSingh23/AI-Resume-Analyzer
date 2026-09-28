@@ -158,7 +158,7 @@ const STEPS = [
     n: "01",
     icon: Upload,
     title: "Upload your resume",
-    desc: "Drop a PDF or DOCX. We parse it in seconds — no signup wall, no nonsense.",
+    desc: "Drop a PDF. We parse it in seconds and get it ready for analysis.",
     Visual: UploadVisual,
   },
   {

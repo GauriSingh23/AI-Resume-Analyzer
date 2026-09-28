@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import {
-  PhoneCall,
+  Target,
   ShieldCheck,
   Zap,
   Search,
@@ -10,14 +10,14 @@ import { SectionHeader } from "./FeaturesSection";
 
 const BENEFITS = [
   {
-    icon: PhoneCall,
-    title: "3.2× more callbacks",
-    desc: "Users hit interview rates that matched their target roles, not their fears.",
-  },
+  icon: Target,
+  title: "Resumes tailored to the role",
+  desc: "Match your resume to a specific job description instead of sending one generic version everywhere.",
+},
   {
     icon: ShieldCheck,
-    title: "Parsed by every ATS",
-    desc: "Greenhouse, Lever, Workday — your resume now reads cleanly to all of them.",
+    title: "ATS-friendly formatting",
+    desc: "Clean, single-column structure that automated parsers can read reliably.",
   },
   {
     icon: Sparkles,
@@ -38,14 +38,14 @@ const BENEFITS = [
 
 export function BenefitsSection() {
   return (
-    <section
+    <section id="outcomes"
       className="px-3 sm:px-6 mt-28 sm:mt-36"
       style={{ maxWidth: 1240, marginLeft: "auto", marginRight: "auto" }}
     >
       <SectionHeader
         eyebrow="Outcomes"
         title={<>The point isn't a better resume. It's a better offer.</>}
-        sub="What our users actually report after their second analysis."
+        sub="What the tool is built to help you do."
       />
 
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4 sm:gap-5">

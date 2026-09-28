@@ -112,7 +112,7 @@ export function HeroSection() {
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <span className="h-1 w-1 rounded-full bg-white/30" />
-                47,300+ resumes analyzed
+                Secure PDF upload
               </span>
             </motion.div>
           </div>

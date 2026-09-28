@@ -120,3 +120,7 @@ body {
 [data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.14);
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}

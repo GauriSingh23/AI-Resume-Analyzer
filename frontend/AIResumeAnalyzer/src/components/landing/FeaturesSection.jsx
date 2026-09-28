@@ -14,7 +14,7 @@ const FEATURES = [
   {
     icon: Gauge,
     title: "ATS Score Analysis",
-    desc: "Section-level scoring against the same parsers Greenhouse and Lever run.",
+    desc: "Section-level scoring across keywords, format, impact, and readability.",
     preview: <ScoreBarsPreview />,
     span: "lg:col-span-2",
   },
@@ -101,7 +101,7 @@ export function FeaturesSection() {
             </span>
           </>
         }
-        sub="Eight surgical tools built around one workflow: upload, analyze, rewrite, ship."
+        sub="Seven surgical tools built around one workflow: upload, analyze, rewrite, ship."
       />
 
       <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
